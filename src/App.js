@@ -13,7 +13,7 @@ class App extends React.Component {
 
     handleClick() {
       this.setState({
-        counter: this.state.counter + 999999999999
+        counter: this.state.counter + 1
       });
   }
  render() {
