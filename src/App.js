@@ -8,16 +8,20 @@ class App extends React.Component {
   }
  render() {
   const tasks = [
-    {
+    {  
+      id: 1,
       text: 'Помыть мусор'
     },
-    {
+    { 
+      id: 2,
       text: 'Вынести Fortnite'
     },
-    {
+    { 
+      id: 3,
       text: 'Сделать посуду'
     },
-    {
+    { 
+      id: 4,
       text: 'Поиграть в уроки'
     },
   ]
