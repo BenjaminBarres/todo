@@ -33,4 +33,12 @@
 
 .todo .todo-text {
     flex: 1;
+    overflow: hidden; /* Скрывать все, что выходит за рамки */
+    white-space: nowrap; /* Запрещает перенос строки */
+    text-overflow: ellipsis; /* Добавляет ... если текст выходит за рамки */
+}
+
+.todo.completed {
+    text-decoration: line-through;
+    color: #ccc;
 }
